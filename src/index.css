@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Pricedown";
+  src: url("/pricedown.otf") format("opentype"); /* Removed /public */
+}
+    body {
+      font-family: "Pricedown", sans-serif;
+    }
+    .anitext{
+      font-family: "Pricedown", sans-serif;
+    }
+
+    img{
+      user-select: none;
+    }  
